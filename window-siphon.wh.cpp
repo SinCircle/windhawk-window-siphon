@@ -1,10 +1,13 @@
 // ==WindhawkMod==
-// @id              macos-minimize-animation
-// @name            经典神灯最小化动画
-// @description     Classic Genie 经典神灯动画：连续拉伸收束，展开末段缓动，贴合任务栏外沿。
+// @id              window-siphon
+// @name            Window Siphon
+// @name:zh-CN      窗口虹吸
+// @description     Fluid minimize and restore animations with adaptive rendering and refresh-rate matching.
+// @description:zh-CN 窗口虹吸：连续拉伸收束，展开末段缓动，自适应渲染分辨率与屏幕刷新率。
 // @version         3.1.6-classic.11
-// @author          Abdullah Masood
-// @github          https://github.com/Abdullah-Masood-05
+// @author          SinCircle
+// @github          https://github.com/SinCircle
+// @homepage        https://github.com/SinCircle/windhawk-window-siphon
 // @include         *
 // @compilerOptions -ldwmapi -lgdi32 -lole32 -loleaut32 -luuid -lshell32
 // @license         MIT
@@ -12,9 +15,11 @@
 
 // ==WindhawkModReadme==
 /*
-# 经典神灯最小化动画
+# Window Siphon · 窗口虹吸
 
-仅保留 Classic Genie。窗口最小化时收束到任务栏外沿，还原时反向展开。
+窗口最小化时连续拉伸、收束到任务栏外沿，还原时反向展开。
+Window Siphon 基于 MacOS Minimize Animation 的 Classic Genie 分支独立维护。
+启用前请先禁用原版或旧 Classic Genie 模组，避免重复处理同一个窗口。
 
 - 默认动画时长 **300 毫秒**，收起和展开起步直接推进，仅展开接近原窗口时减速收尾。
 - 移动、拉伸和收窄由同一个进度连续驱动，没有原地收窄或固定上端的等待阶段。
@@ -42,7 +47,8 @@
 
 原模组作者：Abdullah Masood，MIT 许可。
 截图、任务栏 UI Automation 定位及自动隐藏处理源自 Potassiumuncher 的贡献。
-本地修改：精简 Classic、中文设置、任务栏边界修复与性能优化。
+Window Siphon 维护：SinCircle。修改包括动画曲线与轮廓、中文设置、任务栏边界修复、
+刷新率与渲染分辨率自适应、透明浮层过滤及性能优化。
 */
 // ==/WindhawkModReadme==
 
