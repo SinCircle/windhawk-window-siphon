@@ -2,8 +2,6 @@
 
 让窗口在最小化时连续拉伸、收束到任务栏，还原时流畅展开。Window Siphon 是基于 Windhawk **MacOS Minimize Animation** 独立维护的动画模组。
 
-本项目原名 Classic Genie；更名时保留版本号 **3.1.6-classic.11**，便于追溯现有版本。
-
 ## 功能
 
 - 连续收束的虹吸动画，默认时长 **300 ms**，窗口还原末段平滑减速。
